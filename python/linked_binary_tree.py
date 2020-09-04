@@ -42,7 +42,7 @@ class LinkedBinaryTree(AbstractTree):
 
 	#-------------------------- public accessors --------------------------
 	def __len__(self):
-		return self. size
+		return self._size
 
 	def root(self):
 		return self._make_position(self._root)
